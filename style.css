@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 20px;
+}
+#logo{
+    height: 30px;
+}
+
+#nav-s-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+#nav-s-2-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#nav-s-2{
+    display: flex;
+    align-items: center;
+    background: rgb(26, 26, 26);
+    border-radius: 30px;
+    border: 0.5px solid rgb(137, 137, 137);
+    overflow: hidden;
+}
+
+
+#nav-s-2 input{
+    background: transparent;
+    border: none;
+    height:20px ;
+    width: 380px;
+    padding: 8px 15px;
+    color: white;
+    outline: none;
+}
+
+.search-btn{
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    background: rgb(47, 46, 46);
+    cursor: pointer;
+}
+
+.mic-btn{
+    color: white;
+    border: none;
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(47, 46, 46);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#nav-s-3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#nav-s-3 button{
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+
+}
+#b1{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(47, 46, 46);
+}
+
+#b2{
+    background: none;
+    border: 1px white;
+    background-color: rgb(47, 46, 46)
+}
+
+#b3 {
+    background-color: rgb(50, 148, 50)
+}
+
+
+#container{
+    display: flex;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+    padding: 15px 10px;
+}
+
+#menu p{
+    font-size: 8px;
+}
+
+.topics{
+    padding:4px;
+    background-color: rgb(47, 46, 46);
+    border-radius:7px;
+    display: flex;
+}
+#topics{
+    display: flex;
+    font-size: 12px;
+    gap: 7px;
+    margin: 15px;
+}
+
+
+.topic-btn {
+    background: rgb(47, 46, 46);   /* subtle background */
+    color: #fff;                            /* white text */
+    border: 1px solid rgba(43, 41, 41, 0.3); /* light border */
+    border-radius: 12px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.25s, border 0.2s;
+}
+
+.topic-btn:hover {
+    background: rgb(47, 46, 46);   /* brighter on hover */
+    border: 1px solid #fff;                 /* white border on hover */
+}
+
+
+
+#main_content{
+    flex: 1;
+}
+
+
+#inner_container{
+    display: flex;
+    height: 55px;
+    padding: 5px;
+
+}
+
+.card{
+    padding: 5px;
+}
+
+.card img{
+    width: 360px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.info img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.info{
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.info div{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.info i{
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+
+.vdo_title{
+    font-size: 12px;
+
+}
+.vdo_info{
+    font-size: 10px;
+}
+
+
+#video_container{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+
+}
